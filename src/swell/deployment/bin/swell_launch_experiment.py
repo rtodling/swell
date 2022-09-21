@@ -89,7 +89,7 @@ class DeployWorkflow():
               help='Directory containing the suite file needed by the workflow manager')
 @click.option('-w', '--workflow_manager', 'workflow_manager', default='cylc',
               help='Workflow manager to be used')
-@click.option('-b', '--no-detach', 'no_detach', default=False,
+@click.option('-b', '--no-detach', 'no_detach', is_flag=True, default=False,
               help='Tells workflow manager to block until complete')
 def main(suite_path, workflow_manager, no_detach):
 
