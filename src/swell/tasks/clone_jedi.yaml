@@ -14,15 +14,6 @@ existing_source_directory:
     key: jedi_build_method
     value: use_existing
 
-# Existing JEDI build
-existing_build_directory:
-  default_value: {{existing_build_directory}}
-  prompt: Provide the path to an existing JEDI build directory
-  type: string
-  depends:
-    key: jedi_build_method
-    value: use_existing
-
 # Bundles to build
 bundles:
   default_value: ['fv3-jedi', 'soca', 'iodaconv']

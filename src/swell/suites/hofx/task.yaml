@@ -1,0 +1,5 @@
+tasks:
+  - CloneJedi
+  - BuildJedi
+tasks-model:
+  - GetBackground
