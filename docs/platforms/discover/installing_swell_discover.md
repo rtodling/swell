@@ -61,7 +61,7 @@ Now we create an empty module file with a name corresponding to the above:
 touch $HOME/opt/modulefiles/core/swell/development.lua
 ```
 
-The contents of the `development.lua` file should should contain the following:
+The contents of the `development.lua` file should be the following:
 
 ```
 help([[]])
